@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Html table form elementleri</h1>
+    <!-- table border="1" cellpadding="10" cellspacing="0" width="50%">
+         <thead>
+          <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Yaş</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+               <td>Atakan</td>
+               <td>Turan</td>
+               <td>24</td> 
+            </tr>
+             <tr>
+               <td>Ümmühan</td>
+               <td>Akyiğit</td>
+               <td>24</td> 
+            </tr> 
+            <tr>
+               <td>Tuna</td>
+               <td>Acaroğlu</td>
+               <td>24</td> 
+            </tr>
+        </tbody>
+    </table> -->
+    <form>
+     <table>
+      <tbody>
+  <tr>
+        <td><label for="name">Adınız:</label></td>
+        <td><input type="text" name="name" id="name"></td>
+      </tr>
+      <tr>
+        <td><label for ="email">Email:</label></td>
+       <td><input type="email" name="email" id="email"></td> 
+      </tr>
+      <tr>
+        <td><label for="birthdate">Doğum Tarihi:</label></td>
+        <td><input type="date" name="birthdate" id="birthdate"></td>
+      </tr> 
+      <tr>
+        <td><label for="password">Şifre:</label></td>
+       <td> <input type="password" name="password" id="password"></td>
+      </tr>  
+      <tr>
+        <td>
+        <label>Cinsiyet:</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Erkek</label>
+        <input type="radio" name="gender" id="famale">
+        <label for="famale">Kadın</label>
+      </td>
+      </tr>     
+      <tr>
+        <td>
+        <label>Programlama Dilleri:</label>
+        <input type="checkbox" name="languages" id="javascript" value="javascript">
+        <label for="javascript">javascript</label>
+        <input type="checkbox" name="languages" id="phython" value="phython">
+        <label for="phython">phython</label>
+        <input type="checkbox" name="languages" id="java" value="java">
+        <label for="java">java</label>
+        </td>
+      </tr>  
+      </tbody>
+     </table>
+      <input type="submit" value="Gönder">
+      
+    </form>
+</body>
+</html>
