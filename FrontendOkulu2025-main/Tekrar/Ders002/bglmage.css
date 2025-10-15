@@ -1,0 +1,32 @@
+.bgImage{
+    background-image: url("https://sm.ign.com/t/ign_tr/screenshot/default/xbox-series_m4yx.1280.jpg");
+width:  500px;
+height:  300px;
+color: whitesmoke;
+padding: 20px;
+background-size: cover;
+background-position-x: center;
+background-position-y: center;
+}
+
+.title{
+    font-size: 30px;
+}
+.paragraf{
+    font-size: 20px;
+}
+/* media quert - Responsive design */
+@media screen and (max-width: 768px) { 
+    .title{
+        font-size: 16px;
+    }
+    .paragraf{
+        font-size: 12px;
+    }
+    .bgImage{
+        width: 300px;
+        height: 200px;
+        padding: 10px;
+        color: burlywood;
+    }
+}

@@ -1,0 +1,64 @@
+/*Psuedo Class*/
+.link{
+    color: orange;
+    text-decoration: none;
+}
+.link:hover{
+    color: red;
+}
+.link:visited{
+    color: aqua;
+}
+.link:active{
+    color: chartreuse;
+}
+.list_item{
+    color: cadetblue;
+}
+/* .list_item:first-child{
+    font-weight: bold;
+    color: brown;
+}
+.list_item:last-child{
+    font-weight: italic;
+    color: rgb(12, 116, 59);
+} */
+ /* .list_item:nth-child(2){
+    font-weight: bold;
+    color: brown;
+ }
+  .list_item:nth-child(odd){
+    font-weight: bold;
+    color: brown;
+ }
+  .list_item:nth-child(even){
+    font-weight: bold;
+    color: brown;
+ } */
+ /* .list_item:nth-child(-n+3){
+    font-weight: bold;
+    color: brown;
+ } */
+/*Psuedo Element*/
+p{
+    font-size: 20px;
+    color:cadetblue
+}
+p::first-letter{
+    font-size: 200%;
+    color: tomato;
+}
+.text::first-line{
+    font-size: bold;
+    color: brown;
+}
+.text::after{
+    color: greenyellow;
+    content: "Sona gelmiş ekler";
+    font-size: 30px;
+}
+.text::before{
+    color: greenyellow;
+    content: "Başa gelmiş ekler";
+    font-size: 30px;
+}
